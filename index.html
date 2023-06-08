@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>home</title>
+        <script  src="sample.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Sawarabi+Gothic" rel="stylesheet">
+        <!-- reset.css ress -->
+        <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!-- Header -->
+        <header id="header">
+            <ul>
+                <li><a href="#profile">Profile</a></li>
+                <li><a href="#background">Background</a></li>
+                <li><a href="#hobby">Hobby</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </header>
+        <picture id="space">
+            <source media="(max-width:600px)" srcset="./image/mountain.jpg">
+            <img src="./image/mountain.jpg" alt="mountain">
+        </picture>
+        <!-- Main -->
+        <div class="main">
+            <!-- profile -->
+            <section id="profile" class="wrapper">
+                <h2 class="sec-title" data-en="Profile">自己紹介</h2>
+                <div class="myPic">
+                    <img src="./image/profile.JPG" alt="myphoto">
+                </div>
+                <ul class="myName">
+                    <li>小島龍二 Ryuji Kojima</li>
+                    <li>Birth : 2000/08/06</li>
+                    <li>Gender : Male</li>
+                    <li>From : Yamaguchi in Japan</li>
+
+                </ul>
+            </section>
+            <!-- background -->
+            <section id="background" class="wrapper">
+                <h2 class="sec-title" data-en="Background">経歴</h2>
+                <ul>
+                    <li>山口県立山口高等学校 : Yamaguchi High School (2016/04~2019/03)</li>
+                    <li>山口大学  :  Yamaguchi University (2019/04~2023/03)</li>
+                    <li>山口大学大学院創成科学研究科  :  Graduate School of Sciences and Technology for Innovation (2023/04~)</li>
+                </ul>
+            </section>
+            <!-- hobby -->
+            <section id="hobby" class="wrapper">
+                <h2 class="sec-title" data-en="Hobby">趣味</h2>
+                <ul>
+                    <li><img src="./image/swim.jpg" alt="swim"></li>
+                    <li><img src="./image/muscle.jpg" alt="muscle"></li>
+                    <li><img src="./image/game.jpg" alt="game"></li>
+                </ul>
+                
+                
+            </section>
+            <!-- skills -->
+            <section id="skills" class="wrapper">
+                <h2 class="sec-title" data-en="Skills">能力</h2>
+            </section>
+            <!-- contact -->
+            <section id="contact" class="wrapper">
+                <h2 class="sec-title" data-en="Contact">お問い合わせ</h2>
+                <ul>
+                    <li><a href="mailto:ryu2.b.koji@gmail.com">
+                        <img src="./image/email.png" alt="e-mail">
+                    </a></li>
+                    <li>
+                        <a href="https://www.Twitter.com" target="_blank" rel="noopener noreferrer">
+                            <img src="./image/twitter.png" alt="twitter">
+                        </a>
+                    </li>
+                </ul>
+            </section>
+
+        </div>
+    </body>
+</html>
