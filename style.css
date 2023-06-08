@@ -202,6 +202,16 @@ li{
 }
 
 /* skills */
+#skills ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#skills ul li{
+    width: 10%;
+    margin: 4%;
+}
 
 /* contact */
 #contact ul{
